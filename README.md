@@ -7,7 +7,7 @@ Usage
 -----
 
 You can pass the long URL as a command-line parameter or you can use the app.
-in interactive mode if you don't specify and parameters.
+in interactive mode if you don't specify any parameters.
 
 ```bash
 $ ./urlshortener http://google.com
