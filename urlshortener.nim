@@ -14,6 +14,7 @@ let
   client = newHttpClient()
 
 proc inputExtra*(prompt: string = ""): string =
+  # Read from stdin. Arrows also work, like in Bash.
   var line: string = ""
   let val = readLineFromStdin(prompt, line)    # line is modified
   if not val:
