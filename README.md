@@ -39,5 +39,4 @@ export BITLY_ACCESS_TOKEN="..."
 Related projects
 ----------------
 
-I used https://github.com/bitly/bitly-api-python to figure out what API
-end points to call.
+I used https://github.com/bitly/bitly-api-python to figure out what API calls to make.
