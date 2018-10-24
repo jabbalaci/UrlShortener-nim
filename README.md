@@ -24,6 +24,13 @@ http://bit.ly/2R9zFOR
 
 (In the latter case we used the `https` protocol, hence the difference.)
 
+Installation
+------------
+
+```bash
+$ nimble install urlshortener
+```
+
 Pre-requisite
 -------------
 
