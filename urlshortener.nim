@@ -68,13 +68,16 @@ proc process(text: string) =
   system.addQuitProc(resetAttributes)
   setStyle({styleBright})    # bold
 
-  setForegroundColor(fgYellow); echo shortened
+  # setForegroundColor(fgYellow);
+  echo shortened
   resetAttributes(); stdout.write &"# expanded from shortened URL: {expanded} "
   setStyle({styleBright})    # bold
   if expanded == url:
-    setForegroundColor(fgGreen); echo "(matches)"
+    # setForegroundColor(fgGreen);
+    echo "(matches)"
   else:
-    setForegroundColor(fgRed); echo "(differs)"
+    # setForegroundColor(fgRed);
+    echo "(differs)"
 
 # ############################################################################
 

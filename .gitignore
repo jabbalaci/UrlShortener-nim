@@ -1,4 +1,6 @@
+.vscode/
 nimcache/
+bak/
 
 old/
 urlshortener
